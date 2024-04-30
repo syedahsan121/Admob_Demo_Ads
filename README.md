@@ -4,50 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Android AdMob Ads and Update Integration</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f7f7f7;
-      padding: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 2px 6px;
-      border-radius: 4px;
-    }
-    .btn {
-      display: inline-block;
-      background-color: #007bff;
-      color: #fff;
-      padding: 8px 16px;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #0056b3;
-    }
-    .contributors {
-      margin-top: 20px;
-      font-style: italic;
-    }
-    .license-info {
-      margin-top: 20px;
-      font-size: 0.9em;
-    }
-  </style>
+ 
 </head>
 <body>
   <div class="container">
