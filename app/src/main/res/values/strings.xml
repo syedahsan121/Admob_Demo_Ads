@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Demo_Admob_Ads</string>
+    //  These are the Admob TEST ADS
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="BannerIdAdmob">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intersitialAdUnit">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="appopen">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="native_ad">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="facebook_app_id">EAACwZA1234567890ABCDEFGHIJKLMNOPQRSTUVXYZDZD</string>
+    <string name="NativeExit">ca-app-pub-3940256099942544/2247696110</string>
+
+
 </resources>
