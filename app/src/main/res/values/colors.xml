@@ -2,4 +2,138 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green">#34c759</color>
+    <color name="appcolournew">#3F51B5</color>
+    <color name="light_green">#e6f7f0</color>
+
+    <color name="text_color">#1E4175</color>
+    <color name="background_color">#ecf0f3</color>
+    <color name="highlight">#ffffff</color>
+    <color name="shadow_color">#d9dbde</color>
+    <color name="colorPrimaryDarknew">#fff</color>
+
+    <color name="meow_back">#81CCAD</color>
+    <color name="grey">#807b7b</color>
+    <color name="stockeCard">#5E58595A</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="pinkmain">#FD1060</color>
+    <color name="black2">#010000</color>
+    <color name="skyblue">#2E72FB</color>
+    <color name="maroon">#9F0E01</color>
+    <color name="purple">#6E007B</color>
+    <color name="cream">#FEE8EB</color>
+
+    <color name="whitepink">#FCCAD3</color>
+    <color name="orange">#FF3823</color>
+    <color name="black_transperent">#5C000000</color>
+    <color name="red">#FF1700</color>
+    <color name="whitegray">#E5E5E5</color>
+    <color name="gray">#A3A3A3</color>
+    <color name="dim_gray">#CD99BA</color>
+    <color name="grey_black">#353535</color>
+
+
+
+    <color name="gnt_gray">#8C8A8A</color>
+    <color name="yellow">#FFC107</color>
+
+    <color name="gnt_ad_green">#349338</color>
+
+    <color name="gnt_test_background_color">#ffffff</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="transperent">#00ffffff</color>
+    <color name="gray_color">#E6E6E6</color>
+
+    <color name="colorPrimary">#36D1DC</color>
+    <color name="colorPrimaryDark">#044fab</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="line_color">#9BB5C1</color>
+
+    <color name="lightTransparent">#16000000</color>
+
+    <color name="tab_selected_text_color">#ffffff</color>
+    <color name="tab_unselected_text_color">#a7a7a7</color>
+
+    <color name="primary">#F44336</color>
+    <color name="primaryDark">#F44336</color>
+    <color name="accent">#F44336</color>
+
+    <color name="app_astrik_color">#8f92b4</color>
+
+    <color name="list_devider">#e6e6e6</color>
+    <color name="gray_light_">#999999</color>
+    <color name="gray_light__">#eeeeee</color>
+    <color name="gray_light____">#d3d1d2</color>
+    <color name="gray_light_____">#f4f4f4</color>
+    <color name="black_66">#66000000</color>
+
+    <color name="select_transparancy">#e2e2e2</color>
+    <color name="white_transparent">#99FFFFFF</color>
+
+    <color name="pin_text_color">#414141</color>
+    <color name="shadow_view_default_shadow_color">#DCDDE0</color>
+    <color name="shadow_view_foreground_color_dark">#1f000000</color>
+
+    <color name="whats_your_goal_card_bg_color">#F0F3F5</color>
+    <color name="whats_your_goal_card_bg_color_select">#5D6C73</color>
+
+    <color name="green_gradual_end_color">#0ab897</color>
+    <color name="green_gradual_start_color">#26d5b4</color>
+
+    <color name="common_blue_color">#76AEFF</color>
+    <color name="common_blue_light_color">#DAE9FF</color>
+
+
+    <color name="col_343">#343434</color>
+    <color name="col_666">#666666</color>
+    <color name="col_999">#999999</color>
+    <color name="col_whats_your_goal">#DF666666</color>
+
+    <color name="number_picker_selected_text_color">#F44336</color>
+    <color name="number_picker_text_color">#A6A6A6</color>
+    <color name="number_picker_divider_color">#e6e6e6</color>
+
+    <!-- Todo BMI Chart Background -->
+    <color name="colorFirst">#91CEC0</color>
+    <color name="colorSecond">#154C83</color>
+    <color name="colorThird">#F44336</color>
+    <color name="colorFour">#CCC504</color>
+    <color name="colorFive">#E09C55</color>
+    <color name="colorSix">#CF2E2E</color>
+
+    <color name="collas_notification_txt_color">#000000</color>
+
+
+
+
+    <color name="colorPink">#ff396d</color>
+    <color name="colorProgressBar">#ff9305</color>
+    <color name="color_black_dark">#333333</color>
+    <color name="color_black_light">#666666</color>
+    <color name="color_gray">#808080</color>
+
 </resources>

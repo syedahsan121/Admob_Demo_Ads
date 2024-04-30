@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.sixsoltech.demo_admob_ads'
+    namespace 'com.adsdemoby_ahsan.demo_admob_ads'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.sixsoltech.demo_admob_ads"
+        applicationId "com.adsdemoby_ahsan.demo_admob_ads"
         minSdk 26
         targetSdk 34
         versionCode 1

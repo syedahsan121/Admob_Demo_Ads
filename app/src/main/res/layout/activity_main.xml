@@ -1,18 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activites.Banner_Ads">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Native small"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/nativesmall"
+            android:layout_height="wrap_content">
+
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Native large"
+            android:layout_gravity="center_horizontal"
+
+            android:id="@+id/nativelarge"
+            android:layout_height="wrap_content">
+
+
+        </Button>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Interstatil"
+            android:id="@+id/interstatialads"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutone"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:visibility="gone">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout
+            android:id="@+id/ad_view_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/load_banner"
+            layout="@layout/load_fb_banner" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

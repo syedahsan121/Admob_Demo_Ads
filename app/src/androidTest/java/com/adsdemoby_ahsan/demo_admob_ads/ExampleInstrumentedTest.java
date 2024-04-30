@@ -1,4 +1,4 @@
-package com.sixsoltech.demo_admob_ads;
+package com.adsdemoby_ahsan.demo_admob_ads;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.sixsoltech.demo_admob_ads", appContext.getPackageName());
+        assertEquals("com.adsdemoby_ahsan.demo_admob_ads", appContext.getPackageName());
     }
 }

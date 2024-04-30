@@ -1,4 +1,4 @@
-package com.sixsoltech.demo_admob_ads;
+package com.adsdemoby_ahsan.demo_admob_ads;
 
 import org.junit.Test;
 

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".nativetemplates.MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,17 +14,22 @@
         android:theme="@style/Theme.Demo_Admob_Ads"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activites.Large_Native_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Small_Native"
+            android:exported="false" />
+        <activity
+            android:name=".Activites.Banner_Ads"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-      <!--  Metadata for Google Admob and Facebook-->
-
+        </activity> <!-- declear Activites of Ads her -->
+        <activity android:name=".nativetemplates.BaseActivity" />
+        <activity android:name=".nativetemplates.LoadAdsActivity" /> <!-- Metadata for Google Admob and Facebook -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/app_id" />
