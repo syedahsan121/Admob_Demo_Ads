@@ -1,13 +1,14 @@
 package com.adsdemoby_ahsan.demo_admob_ads.Activites;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.adsdemoby_ahsan.demo_admob_ads.R;
 import com.adsdemoby_ahsan.demo_admob_ads.Utilz.AdsUtilize;
@@ -36,9 +37,28 @@ public class Banner_Ads extends AppCompatActivity {
         }
 
         smallnativebtn=findViewById(R.id.nativesmall);
+        largenativebtn=findViewById(R.id.nativelarge);
+        interstatiladsbtn=findViewById(R.id.interstatialads);
         smallnativebtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                startActivity(new Intent(Banner_Ads.this, Small_Native.class));
+            }
+        });
+
+        largenativebtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Banner_Ads.this,Large_Native_Activity.class));
+            }
+        });
+
+        interstatiladsbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                AdsUtilize.getInstance().startLoadAdActivity(Banner_Ads.this, Small_Native.class.getCanonicalName(), getResources().getString(R.string.intersitialAdUnit), null, 0);
+
+
 
             }
         });
