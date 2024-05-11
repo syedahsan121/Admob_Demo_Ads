@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>BannerIdAdmob</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>intersitialAdUnit</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>Interstisial_splash_show</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>appopen</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>native_ad</key>
+        <value>false</value>
+    </entry>
+</defaultsMap>

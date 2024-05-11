@@ -47,6 +47,6 @@ public class SpUtils {
     }
 
     public boolean getBooleanValue(String name) {
-        return prefs.getBoolean(name, false);
+        return prefs.getBoolean(name, true);
     }
 }

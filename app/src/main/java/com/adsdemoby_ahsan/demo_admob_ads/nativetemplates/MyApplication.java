@@ -19,6 +19,7 @@ import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.admanager.AdManagerAdRequest;
 import com.google.android.gms.ads.appopen.AppOpenAd;
+import com.google.firebase.FirebaseApp;
 
 import java.util.Date;
 
@@ -36,7 +37,7 @@ public class MyApplication extends Application
 
         // Log the Mobile Ads SDK version.
 
-      //  FirebaseApp.initializeApp(this);
+       FirebaseApp.initializeApp(this);
         new SpUtils(this);
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
         appOpenAdManager = new AppOpenAdManager();

@@ -11,6 +11,7 @@ import android.widget.RelativeLayout;
 
 import com.adsdemoby_ahsan.demo_admob_ads.R;
 import com.adsdemoby_ahsan.demo_admob_ads.Utilz.AdsUtilize;
+import com.adsdemoby_ahsan.demo_admob_ads.Utilz.SpUtils;
 import com.adsdemoby_ahsan.demo_admob_ads.nativetemplates.TemplateView;
 import com.facebook.shimmer.ShimmerFrameLayout;
 
@@ -21,7 +22,7 @@ public class Small_Native extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_small_native);
 ////for small native
-        String nativeAdsId = getString(R.string.native_ad);
+        String nativeAdsId = SpUtils.getInstance().getStringValue("Nativeweb");
         TemplateView nativeTemplate = findViewById(R.id.my_template);
         ShimmerFrameLayout nativeShimmer = findViewById(R.id.load_native);
         RelativeLayout layNative = findViewById(R.id.Laynative);

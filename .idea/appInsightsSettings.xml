@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.adsdemoby_ahsan.demo_admob_ads" />
+                  <option name="mobileSdkAppId" value="1:563272440493:android:94af499f23919a3d1cc424" />
+                  <option name="projectId" value="democontrolads" />
+                  <option name="projectNumber" value="563272440493" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
